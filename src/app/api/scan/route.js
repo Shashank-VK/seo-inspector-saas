@@ -2,11 +2,17 @@ import { NextResponse } from "next/server";
 import * as cheerio from "cheerio";
 
 export async function POST(request) {
+  let url;
   try {
-    const { url } = await request.json();
+    const body = await request.json();
+    url = body?.url;
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON payload" }, { status: 400 });
+  }
 
-    if (!url) {
-      return NextResponse.json({ error: "URL is required" }, { status: 400 });
+  try {
+    if (!url || typeof url !== "string") {
+      return NextResponse.json({ error: "A valid URL string is required" }, { status: 400 });
     }
 
     // Normalize URL
