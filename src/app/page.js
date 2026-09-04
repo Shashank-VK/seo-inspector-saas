@@ -349,10 +349,10 @@ export default function SEOInspector() {
             border: "1px solid rgba(255, 255, 255, 0.1)",
             fontSize: "13px",
           }}>
-            <span>🇮🇳 UPI: <strong style={{ color: "#a5b4fc" }}>7760171649@upi</strong> (₹499)</span>
+            <span>🇮🇳 UPI: <strong style={{ color: "#a5b4fc" }}>9980955236@upi</strong> (₹499)</span>
             <button
               onClick={() => {
-                navigator.clipboard.writeText("7760171649@upi");
+                navigator.clipboard.writeText("9980955236@upi");
                 alert("UPI ID copied!");
               }}
               style={{
