@@ -335,38 +335,72 @@ export default function SEOInspector() {
           Get Automated Audits & Scheduled Monitoring
         </h3>
         <p style={{ color: "var(--text-secondary)", maxWidth: "600px", margin: "0 auto 20px", fontSize: "14px" }}>
-          Upgrade to Pro for $9/mo or $49 lifetime. Send USDC/USDT/ETH directly to unlock unlimited automated URL health alerts:
+          Upgrade to Pro for ₹499 (India) or $9/mo (Global). Unlock automated weekly scans and health alerts:
         </p>
-        <div style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: "12px",
-          background: "rgba(0, 0, 0, 0.5)",
-          padding: "10px 18px",
-          borderRadius: "10px",
-          border: "1px solid rgba(255, 255, 255, 0.1)",
-          fontFamily: "monospace",
-          fontSize: "13px",
-          color: "#a5b4fc",
-        }}>
-          <span>0x49e03383285eEef3927E12D88c1227f059BbD42d</span>
-          <button
-            onClick={() => {
-              navigator.clipboard.writeText("0x49e03383285eEef3927E12D88c1227f059BbD42d");
-              alert("Wallet address copied to clipboard!");
-            }}
-            style={{
-              background: "#4f46e5",
-              color: "#fff",
-              border: "none",
-              padding: "5px 12px",
-              borderRadius: "6px",
-              fontSize: "12px",
-              cursor: "pointer",
-            }}
-          >
-            Copy
-          </button>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
+          {/* UPI Pill */}
+          <div style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            background: "rgba(0, 0, 0, 0.5)",
+            padding: "10px 18px",
+            borderRadius: "10px",
+            border: "1px solid rgba(255, 255, 255, 0.1)",
+            fontSize: "13px",
+          }}>
+            <span>🇮🇳 UPI: <strong style={{ color: "#a5b4fc" }}>7760171649@upi</strong> (₹499)</span>
+            <button
+              onClick={() => {
+                navigator.clipboard.writeText("7760171649@upi");
+                alert("UPI ID copied!");
+              }}
+              style={{
+                background: "#6366f1",
+                color: "#fff",
+                border: "none",
+                padding: "5px 12px",
+                borderRadius: "6px",
+                fontSize: "12px",
+                cursor: "pointer",
+              }}
+            >
+              Copy UPI
+            </button>
+          </div>
+
+          {/* Crypto Pill */}
+          <div style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            background: "rgba(0, 0, 0, 0.5)",
+            padding: "10px 18px",
+            borderRadius: "10px",
+            border: "1px solid rgba(255, 255, 255, 0.1)",
+            fontFamily: "monospace",
+            fontSize: "12px",
+            color: "#a5b4fc",
+          }}>
+            <span>🌐 EVM: 0x49e033...BbD42d ($9)</span>
+            <button
+              onClick={() => {
+                navigator.clipboard.writeText("0x49e03383285eEef3927E12D88c1227f059BbD42d");
+                alert("Wallet address copied!");
+              }}
+              style={{
+                background: "#374151",
+                color: "#fff",
+                border: "none",
+                padding: "5px 12px",
+                borderRadius: "6px",
+                fontSize: "12px",
+                cursor: "pointer",
+              }}
+            >
+              Copy
+            </button>
+          </div>
         </div>
       </section>
 
