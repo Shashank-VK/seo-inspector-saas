@@ -65,26 +65,4 @@ Content-Type: application/json
 
 ---
 
-## 💳 Commercial Licensing & Bespoke Setup
 
-If you wish to integrate SEO Inspector into your SaaS, agency workflow, or client portal:
-
-### 🇮🇳 Domestic UPI (India):
-- **Personal / Indie License**: ₹999
-- **Commercial / Enterprise API**: ₹2,499
-- **UPI ID**: `shashankkaramudi@ibl`
-- **Instant Activation**: Send screenshot to WhatsApp: [**+91 9980955236**](https://wa.me/919980955236?text=Hi%20Shashank,%20I%20completed%20the%20UPI%20payment%20for%20SEO%20Inspector%20Commercial%20License)
-
-### 🌐 Global (On-Chain Crypto):
-- **Personal**: $29 USDC / USDT
-- **Commercial / Enterprise**: $79 USDC / USDT
-- **EVM Address (Base / Arbitrum / Polygon / Ethereum)**:
-  `0x49e03383285eEef3927E12D88c1227f059BbD42d`
-- **Proof / Receipt**: Confirm tx hash on WhatsApp: [**+91 9980955236**](https://wa.me/919980955236?text=Hi%20Shashank,%20I%20sent%20crypto%20for%20SEO%20Inspector%20License)
-
----
-
-## 👨‍💻 Author
-
-Engineered by **Shashank Karamudi**.  
-WhatsApp: [**+91 9980955236**](https://wa.me/919980955236) | Email: `shashankvkaramudi51@gmail.com`
